@@ -147,3 +147,35 @@ button {
     text-align: right;
     font-size: 18px;
 }
+.action{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.box{
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    margin: 40px 20px ;
+}
+.placement{
+    display: flex;
+    flex-direction: row;
+    margin: 24px;
+    gap: 400px;
+    justify-content: space-between;
+}
+.words{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.call{
+    font-size:18px;
+    font-weight: 900;
+    flex-wrap: nowrap;
+    
+}
