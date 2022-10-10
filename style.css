@@ -77,10 +77,10 @@ ul {
 button {
     font-size: 18px;
     color: #e5e7eb;
-    padding: 0px;
     background-color: #3882f6;
     border-radius: 8px;
-    padding: 6px;
+    border-color: #e5e7eb;
+    padding: 3px;
     width: 90px;
     font-family: "Times New Roman";
 }
@@ -123,9 +123,7 @@ button {
     color: #1f2937;
     max-width: 170px;
     margin-top: 10px;
-
 }
-
 .quote{
     background-color: #e5e7eb;
     display: flex;
@@ -171,7 +169,7 @@ button {
     display: flex;
     flex-direction: row;
     margin: 24px;
-    gap: 400px;
+    gap: 300px;
     justify-content: space-between;
 }
 .words{
@@ -189,6 +187,5 @@ button {
     font-size:18px;
     color: #e5e7eb;
     margin-top: 24px;
-    margin-bottom: 24px;
-    
+    margin-bottom: 24px;   
 }
